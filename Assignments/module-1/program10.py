@@ -1,5 +1,5 @@
 # Write a Python program to check if a number is prime using if_else. 
-i=2
+i=1
 no=int(input("Enter a number:"))
 while i<=no:
     i+=1
