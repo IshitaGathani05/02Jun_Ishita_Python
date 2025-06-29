@@ -19,8 +19,8 @@ elif pr>=70:
 elif pr>=60:
     print("B Grade")
 elif pr>=50:
-    print("C Grade")
+    print("C+ Grade")
 elif pr>=40:
-    print("D Grade")
+    print("C Grade")
 else:
     print("Fail")
