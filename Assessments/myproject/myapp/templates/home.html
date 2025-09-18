@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h2>Courses</h2>
+  <ul>
+    {% for c in courses %}
+      <li><a href="{% url 'courses:detail' c.slug %}">{{ c.title }}</a> - ₹{{ c.fee }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
